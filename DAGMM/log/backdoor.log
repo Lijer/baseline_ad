@@ -1,0 +1,352 @@
+nohup: ignoring input
+CUDA_VISIBLE_DEVICES=3 python main.py --data_dir ./data/backdoor.csv --c_in 208 --h 64 --batch_size 2048
+**********    ./data/backdoor.csv    **********
+Data shape: (186195, 208)
+(186195, 208) (186195,)
+Training DAGMM... Epoch: 0, Loss: 77349.164
+Training DAGMM... Epoch: 1, Loss: 76325.702
+Training DAGMM... Epoch: 2, Loss: 77338.540
+Training DAGMM... Epoch: 3, Loss: 76947.871
+Training DAGMM... Epoch: 4, Loss: 77142.004
+Training DAGMM... Epoch: 5, Loss: 77451.002
+Training DAGMM... Epoch: 6, Loss: 77352.624
+Training DAGMM... Epoch: 7, Loss: 78184.645
+Training DAGMM... Epoch: 8, Loss: 76698.512
+Training DAGMM... Epoch: 9, Loss: 76871.011
+Training DAGMM... Epoch: 10, Loss: 77184.281
+Training DAGMM... Epoch: 11, Loss: 77371.081
+Training DAGMM... Epoch: 12, Loss: 77817.624
+Training DAGMM... Epoch: 13, Loss: 77336.234
+Training DAGMM... Epoch: 14, Loss: 77259.092
+Training DAGMM... Epoch: 15, Loss: 76664.774
+Training DAGMM... Epoch: 16, Loss: 76985.483
+Training DAGMM... Epoch: 17, Loss: 77531.846
+Training DAGMM... Epoch: 18, Loss: 77326.572
+Training DAGMM... Epoch: 19, Loss: 76642.361
+Training DAGMM... Epoch: 20, Loss: 77853.781
+Training DAGMM... Epoch: 21, Loss: 77193.143
+Training DAGMM... Epoch: 22, Loss: 78056.648
+Training DAGMM... Epoch: 23, Loss: 77715.819
+Training DAGMM... Epoch: 24, Loss: 78049.777
+Training DAGMM... Epoch: 25, Loss: 77775.494
+Training DAGMM... Epoch: 26, Loss: 77222.732
+Training DAGMM... Epoch: 27, Loss: 76208.602
+Training DAGMM... Epoch: 28, Loss: 77296.130
+Training DAGMM... Epoch: 29, Loss: 76622.630
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.56
+ap score: 0.87
+Training DAGMM... Epoch: 0, Loss: 56656.403
+Training DAGMM... Epoch: 1, Loss: 56537.682
+Training DAGMM... Epoch: 2, Loss: 56915.134
+Training DAGMM... Epoch: 3, Loss: 56175.090
+Training DAGMM... Epoch: 4, Loss: 56769.534
+Training DAGMM... Epoch: 5, Loss: 56417.159
+Training DAGMM... Epoch: 6, Loss: 56368.497
+Training DAGMM... Epoch: 7, Loss: 55934.321
+Training DAGMM... Epoch: 8, Loss: 56821.187
+Training DAGMM... Epoch: 9, Loss: 56490.196
+Training DAGMM... Epoch: 10, Loss: 56785.266
+Training DAGMM... Epoch: 11, Loss: 56686.344
+Training DAGMM... Epoch: 12, Loss: 56823.256
+Training DAGMM... Epoch: 13, Loss: 56391.365
+Training DAGMM... Epoch: 14, Loss: 56285.704
+Training DAGMM... Epoch: 15, Loss: 56244.558
+Training DAGMM... Epoch: 16, Loss: 56158.765
+Training DAGMM... Epoch: 17, Loss: 56549.970
+Training DAGMM... Epoch: 18, Loss: 56178.552
+Training DAGMM... Epoch: 19, Loss: 56858.212
+Training DAGMM... Epoch: 20, Loss: 56282.343
+Training DAGMM... Epoch: 21, Loss: 56627.971
+Training DAGMM... Epoch: 22, Loss: 56232.483
+Training DAGMM... Epoch: 23, Loss: 56391.829
+Training DAGMM... Epoch: 24, Loss: 56496.360
+Training DAGMM... Epoch: 25, Loss: 56124.379
+Training DAGMM... Epoch: 26, Loss: 56284.204
+Training DAGMM... Epoch: 27, Loss: 56410.649
+Training DAGMM... Epoch: 28, Loss: 56736.385
+Training DAGMM... Epoch: 29, Loss: 56431.060
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.58
+ap score: 0.79
+Training DAGMM... Epoch: 0, Loss: 41685.136
+Training DAGMM... Epoch: 1, Loss: 41744.173
+Training DAGMM... Epoch: 2, Loss: 41692.534
+Training DAGMM... Epoch: 3, Loss: 41794.058
+Training DAGMM... Epoch: 4, Loss: 41737.883
+Training DAGMM... Epoch: 5, Loss: 41671.842
+Training DAGMM... Epoch: 6, Loss: 41655.362
+Training DAGMM... Epoch: 7, Loss: 41665.767
+Training DAGMM... Epoch: 8, Loss: 41630.012
+Training DAGMM... Epoch: 9, Loss: 41753.437
+Training DAGMM... Epoch: 10, Loss: 41655.943
+Training DAGMM... Epoch: 11, Loss: 41798.018
+Training DAGMM... Epoch: 12, Loss: 41721.267
+Training DAGMM... Epoch: 13, Loss: 41647.172
+Training DAGMM... Epoch: 14, Loss: 41655.233
+Training DAGMM... Epoch: 15, Loss: 41613.081
+Training DAGMM... Epoch: 16, Loss: 41707.593
+Training DAGMM... Epoch: 17, Loss: 41883.285
+Training DAGMM... Epoch: 18, Loss: 41585.423
+Training DAGMM... Epoch: 19, Loss: 41794.895
+Training DAGMM... Epoch: 20, Loss: 41736.622
+Training DAGMM... Epoch: 21, Loss: 41577.446
+Training DAGMM... Epoch: 22, Loss: 41821.351
+Training DAGMM... Epoch: 23, Loss: 41619.701
+Training DAGMM... Epoch: 24, Loss: 41737.279
+Training DAGMM... Epoch: 25, Loss: 41567.369
+Training DAGMM... Epoch: 26, Loss: 41638.847
+Training DAGMM... Epoch: 27, Loss: 41647.362
+Training DAGMM... Epoch: 28, Loss: 41808.193
+Training DAGMM... Epoch: 29, Loss: 41613.723
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.59
+ap score: 0.81
+Training DAGMM... Epoch: 0, Loss: 60444.701
+Training DAGMM... Epoch: 1, Loss: 60793.952
+Training DAGMM... Epoch: 2, Loss: 59898.173
+Training DAGMM... Epoch: 3, Loss: 59555.722
+Training DAGMM... Epoch: 4, Loss: 60045.259
+Training DAGMM... Epoch: 5, Loss: 59840.511
+Training DAGMM... Epoch: 6, Loss: 60615.614
+Training DAGMM... Epoch: 7, Loss: 60345.901
+Training DAGMM... Epoch: 8, Loss: 60440.187
+Training DAGMM... Epoch: 9, Loss: 60085.827
+Training DAGMM... Epoch: 10, Loss: 59731.110
+Training DAGMM... Epoch: 11, Loss: 60322.246
+Training DAGMM... Epoch: 12, Loss: 60671.589
+Training DAGMM... Epoch: 13, Loss: 59578.120
+Training DAGMM... Epoch: 14, Loss: 59837.652
+Training DAGMM... Epoch: 15, Loss: 60016.184
+Training DAGMM... Epoch: 16, Loss: 59663.755
+Training DAGMM... Epoch: 17, Loss: 60749.636
+Training DAGMM... Epoch: 18, Loss: 60036.645
+Training DAGMM... Epoch: 19, Loss: 60381.707
+Training DAGMM... Epoch: 20, Loss: 60186.109
+Training DAGMM... Epoch: 21, Loss: 59522.540
+Training DAGMM... Epoch: 22, Loss: 60604.985
+Training DAGMM... Epoch: 23, Loss: 60295.464
+Training DAGMM... Epoch: 24, Loss: 60014.714
+Training DAGMM... Epoch: 25, Loss: 60635.275
+Training DAGMM... Epoch: 26, Loss: 60044.400
+Training DAGMM... Epoch: 27, Loss: 60620.528
+Training DAGMM... Epoch: 28, Loss: 60651.398
+Training DAGMM... Epoch: 29, Loss: 59940.096
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.47
+ap score: 0.79
+Training DAGMM... Epoch: 0, Loss: 42610.450
+Training DAGMM... Epoch: 1, Loss: 42511.783
+Training DAGMM... Epoch: 2, Loss: 42633.644
+Training DAGMM... Epoch: 3, Loss: 42691.295
+Training DAGMM... Epoch: 4, Loss: 42156.804
+Training DAGMM... Epoch: 5, Loss: 42384.071
+Training DAGMM... Epoch: 6, Loss: 42766.821
+Training DAGMM... Epoch: 7, Loss: 41970.573
+Training DAGMM... Epoch: 8, Loss: 41889.933
+Training DAGMM... Epoch: 9, Loss: 42154.058
+Training DAGMM... Epoch: 10, Loss: 41998.542
+Training DAGMM... Epoch: 11, Loss: 42386.960
+Training DAGMM... Epoch: 12, Loss: 42657.312
+Training DAGMM... Epoch: 13, Loss: 42641.436
+Training DAGMM... Epoch: 14, Loss: 42431.407
+Training DAGMM... Epoch: 15, Loss: 42344.096
+Training DAGMM... Epoch: 16, Loss: 42506.450
+Training DAGMM... Epoch: 17, Loss: 42277.109
+Training DAGMM... Epoch: 18, Loss: 42401.264
+Training DAGMM... Epoch: 19, Loss: 42449.782
+Training DAGMM... Epoch: 20, Loss: 42129.525
+Training DAGMM... Epoch: 21, Loss: 42091.228
+Training DAGMM... Epoch: 22, Loss: 42826.491
+Training DAGMM... Epoch: 23, Loss: 42480.812
+Training DAGMM... Epoch: 24, Loss: 42310.967
+Training DAGMM... Epoch: 25, Loss: 41917.576
+Training DAGMM... Epoch: 26, Loss: 42526.042
+Training DAGMM... Epoch: 27, Loss: 42543.627
+Training DAGMM... Epoch: 28, Loss: 42690.616
+Training DAGMM... Epoch: 29, Loss: 42875.311
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.63
+ap score: 0.88
+Training DAGMM... Epoch: 0, Loss: 33756.018
+Training DAGMM... Epoch: 1, Loss: 33932.613
+Training DAGMM... Epoch: 2, Loss: 33856.912
+Training DAGMM... Epoch: 3, Loss: 33679.283
+Training DAGMM... Epoch: 4, Loss: 34019.262
+Training DAGMM... Epoch: 5, Loss: 33915.219
+Training DAGMM... Epoch: 6, Loss: 33680.605
+Training DAGMM... Epoch: 7, Loss: 34022.907
+Training DAGMM... Epoch: 8, Loss: 33715.334
+Training DAGMM... Epoch: 9, Loss: 33709.392
+Training DAGMM... Epoch: 10, Loss: 33699.477
+Training DAGMM... Epoch: 11, Loss: 33659.422
+Training DAGMM... Epoch: 12, Loss: 33692.222
+Training DAGMM... Epoch: 13, Loss: 33952.589
+Training DAGMM... Epoch: 14, Loss: 33983.568
+Training DAGMM... Epoch: 15, Loss: 33722.679
+Training DAGMM... Epoch: 16, Loss: 33741.327
+Training DAGMM... Epoch: 17, Loss: 33855.358
+Training DAGMM... Epoch: 18, Loss: 33746.586
+Training DAGMM... Epoch: 19, Loss: 33635.552
+Training DAGMM... Epoch: 20, Loss: 33771.248
+Training DAGMM... Epoch: 21, Loss: 34116.902
+Training DAGMM... Epoch: 22, Loss: 33777.560
+Training DAGMM... Epoch: 23, Loss: 33689.016
+Training DAGMM... Epoch: 24, Loss: 33658.666
+Training DAGMM... Epoch: 25, Loss: 33735.587
+Training DAGMM... Epoch: 26, Loss: 33758.117
+Training DAGMM... Epoch: 27, Loss: 33754.384
+Training DAGMM... Epoch: 28, Loss: 33978.474
+Training DAGMM... Epoch: 29, Loss: 34024.150
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.52
+ap score: 0.81
+Training DAGMM... Epoch: 0, Loss: 33231.877
+Training DAGMM... Epoch: 1, Loss: 33033.899
+Training DAGMM... Epoch: 2, Loss: 33221.142
+Training DAGMM... Epoch: 3, Loss: 33032.809
+Training DAGMM... Epoch: 4, Loss: 33339.524
+Training DAGMM... Epoch: 5, Loss: 32672.746
+Training DAGMM... Epoch: 6, Loss: 33244.894
+Training DAGMM... Epoch: 7, Loss: 32981.463
+Training DAGMM... Epoch: 8, Loss: 33275.558
+Training DAGMM... Epoch: 9, Loss: 32956.281
+Training DAGMM... Epoch: 10, Loss: 32830.553
+Training DAGMM... Epoch: 11, Loss: 33046.328
+Training DAGMM... Epoch: 12, Loss: 33200.402
+Training DAGMM... Epoch: 13, Loss: 33327.870
+Training DAGMM... Epoch: 14, Loss: 33309.146
+Training DAGMM... Epoch: 15, Loss: 33277.465
+Training DAGMM... Epoch: 16, Loss: 33297.540
+Training DAGMM... Epoch: 17, Loss: 33589.851
+Training DAGMM... Epoch: 18, Loss: 33281.393
+Training DAGMM... Epoch: 19, Loss: 32928.155
+Training DAGMM... Epoch: 20, Loss: 33079.914
+Training DAGMM... Epoch: 21, Loss: 33101.388
+Training DAGMM... Epoch: 22, Loss: 32992.510
+Training DAGMM... Epoch: 23, Loss: 33086.243
+Training DAGMM... Epoch: 24, Loss: 33209.155
+Training DAGMM... Epoch: 25, Loss: 33150.416
+Training DAGMM... Epoch: 26, Loss: 33278.371
+Training DAGMM... Epoch: 27, Loss: 33219.276
+Training DAGMM... Epoch: 28, Loss: 33201.508
+Training DAGMM... Epoch: 29, Loss: 33021.321
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.51
+ap score: 0.80
+Training DAGMM... Epoch: 0, Loss: 117993.689
+Training DAGMM... Epoch: 1, Loss: 118276.523
+Training DAGMM... Epoch: 2, Loss: 119071.463
+Training DAGMM... Epoch: 3, Loss: 119141.773
+Training DAGMM... Epoch: 4, Loss: 118054.971
+Training DAGMM... Epoch: 5, Loss: 117637.350
+Training DAGMM... Epoch: 6, Loss: 118929.610
+Training DAGMM... Epoch: 7, Loss: 119462.921
+Training DAGMM... Epoch: 8, Loss: 116604.838
+Training DAGMM... Epoch: 9, Loss: 116567.907
+Training DAGMM... Epoch: 10, Loss: 117365.628
+Training DAGMM... Epoch: 11, Loss: 117441.821
+Training DAGMM... Epoch: 12, Loss: 117779.689
+Training DAGMM... Epoch: 13, Loss: 118935.888
+Training DAGMM... Epoch: 14, Loss: 118025.664
+Training DAGMM... Epoch: 15, Loss: 117543.662
+Training DAGMM... Epoch: 16, Loss: 117259.330
+Training DAGMM... Epoch: 17, Loss: 118408.730
+Training DAGMM... Epoch: 18, Loss: 118520.179
+Training DAGMM... Epoch: 19, Loss: 118564.358
+Training DAGMM... Epoch: 20, Loss: 120180.669
+Training DAGMM... Epoch: 21, Loss: 118547.207
+Training DAGMM... Epoch: 22, Loss: 116365.762
+Training DAGMM... Epoch: 23, Loss: 116590.643
+Training DAGMM... Epoch: 24, Loss: 117149.758
+Training DAGMM... Epoch: 25, Loss: 118022.532
+Training DAGMM... Epoch: 26, Loss: 117008.820
+Training DAGMM... Epoch: 27, Loss: 117374.161
+Training DAGMM... Epoch: 28, Loss: 119604.300
+Training DAGMM... Epoch: 29, Loss: 119606.665
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.50
+ap score: 0.79
+Training DAGMM... Epoch: 0, Loss: 221027.889
+Training DAGMM... Epoch: 1, Loss: 222773.302
+Training DAGMM... Epoch: 2, Loss: 220765.082
+Training DAGMM... Epoch: 3, Loss: 221826.041
+Training DAGMM... Epoch: 4, Loss: 221877.977
+Training DAGMM... Epoch: 5, Loss: 221448.380
+Training DAGMM... Epoch: 6, Loss: 221315.754
+Training DAGMM... Epoch: 7, Loss: 222127.253
+Training DAGMM... Epoch: 8, Loss: 222427.820
+Training DAGMM... Epoch: 9, Loss: 221579.043
+Training DAGMM... Epoch: 10, Loss: 221526.077
+Training DAGMM... Epoch: 11, Loss: 220984.959
+Training DAGMM... Epoch: 12, Loss: 220308.895
+Training DAGMM... Epoch: 13, Loss: 220354.145
+Training DAGMM... Epoch: 14, Loss: 220795.790
+Training DAGMM... Epoch: 15, Loss: 221495.648
+Training DAGMM... Epoch: 16, Loss: 220572.799
+Training DAGMM... Epoch: 17, Loss: 221293.536
+Training DAGMM... Epoch: 18, Loss: 221653.525
+Training DAGMM... Epoch: 19, Loss: 220951.958
+Training DAGMM... Epoch: 20, Loss: 221708.028
+Training DAGMM... Epoch: 21, Loss: 220681.388
+Training DAGMM... Epoch: 22, Loss: 220522.095
+Training DAGMM... Epoch: 23, Loss: 221348.511
+Training DAGMM... Epoch: 24, Loss: 223338.516
+Training DAGMM... Epoch: 25, Loss: 220508.670
+Training DAGMM... Epoch: 26, Loss: 219436.777
+Training DAGMM... Epoch: 27, Loss: 221253.181
+Training DAGMM... Epoch: 28, Loss: 221478.377
+Training DAGMM... Epoch: 29, Loss: 220696.351
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.47
+ap score: 0.75
+Training DAGMM... Epoch: 0, Loss: 53233.168
+Training DAGMM... Epoch: 1, Loss: 53246.735
+Training DAGMM... Epoch: 2, Loss: 52899.511
+Training DAGMM... Epoch: 3, Loss: 53758.065
+Training DAGMM... Epoch: 4, Loss: 53434.358
+Training DAGMM... Epoch: 5, Loss: 54049.387
+Training DAGMM... Epoch: 6, Loss: 52861.726
+Training DAGMM... Epoch: 7, Loss: 53381.362
+Training DAGMM... Epoch: 8, Loss: 52898.636
+Training DAGMM... Epoch: 9, Loss: 53034.433
+Training DAGMM... Epoch: 10, Loss: 53093.633
+Training DAGMM... Epoch: 11, Loss: 53182.553
+Training DAGMM... Epoch: 12, Loss: 53392.146
+Training DAGMM... Epoch: 13, Loss: 52717.745
+Training DAGMM... Epoch: 14, Loss: 53945.869
+Training DAGMM... Epoch: 15, Loss: 53501.577
+Training DAGMM... Epoch: 16, Loss: 53095.204
+Training DAGMM... Epoch: 17, Loss: 53024.097
+Training DAGMM... Epoch: 18, Loss: 53144.496
+Training DAGMM... Epoch: 19, Loss: 53668.467
+Training DAGMM... Epoch: 20, Loss: 52924.827
+Training DAGMM... Epoch: 21, Loss: 53173.005
+Training DAGMM... Epoch: 22, Loss: 53582.579
+Training DAGMM... Epoch: 23, Loss: 53655.863
+Training DAGMM... Epoch: 24, Loss: 53642.425
+Training DAGMM... Epoch: 25, Loss: 53363.847
+Training DAGMM... Epoch: 26, Loss: 53420.902
+Training DAGMM... Epoch: 27, Loss: 53213.550
+Training DAGMM... Epoch: 28, Loss: 53892.309
+Training DAGMM... Epoch: 29, Loss: 53207.074
+Testing...
+Threshold :  88.50808785969691
+ROC AUC score: 0.50
+ap score: 0.80
+[0.8749064657123669, 0.7887587586743635, 0.814891801812087, 0.7936010982964099, 0.8801530078319122, 0.8064766460267814, 0.7981259818149726, 0.7880378146565932, 0.7535852232897128, 0.8006196003791212]
+avg: 0.809915639849432
+std: 0.03712765749727241
+[0.5579081787770285, 0.576306432390765, 0.586095351457963, 0.47174579314464665, 0.6273256203717553, 0.5210104871586339, 0.5082925450608003, 0.4982776983715549, 0.4739725315589311, 0.50111795446334]
+avg: 0.5322052592755419
+std: 0.04941519708241418
+测试结束

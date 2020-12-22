@@ -1,0 +1,3700 @@
+nohup: ignoring input
+Running in DEV_MODE!
+Data shape: (60821, 34)
+Init tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:02:04.062457
+tic_datetime.strftime: 2020-11-02 13:02:04.062457
+tic_walltime: 1604322124.0627189
+tic_cpu: 6.541797
+=====================================================
+
+train tree id: 0 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:02:04.096539
+tic_datetime.strftime: 2020-11-02 13:02:04.096539
+tic_walltime: 1604322124.0966046
+tic_cpu: 6.575638
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 1 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.03546878
+tree_id: 1 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.020724889
+tree_id: 1 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.019633412
+tree_id: 1 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.018439338
+tree_id: 1 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.019578949
+tree_id: 1 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.019746957
+tree_id: 1 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.018542558
+tree_id: 1 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.023308365
+tree_id: 1 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.02086297
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 1 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.02754241
+tree_id: 1 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.011108296
+tree_id: 1 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.012160549
+tree_id: 1 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.010625742
+tree_id: 1 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.013886038
+tree_id: 1 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.009067742
+tree_id: 1 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.012086514
+tree_id: 1 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.011200104
+tree_id: 1 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.010885605
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 1 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.031015577
+tree_id: 1 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.00881348
+tree_id: 1 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.011873631
+tree_id: 1 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.009779619
+tree_id: 1 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.013202421
+tree_id: 1 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.010664572
+tree_id: 1 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.011889144
+tree_id: 1 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.008543069
+tree_id: 1 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.010587323
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 1 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.028354771
+tree_id: 1 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.0059738983
+tree_id: 1 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.005540438
+tree_id: 1 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.0052723894
+tree_id: 1 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.004527445
+tree_id: 1 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.005475225
+tree_id: 1 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.005164627
+tree_id: 1 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.0046958434
+tree_id: 1 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.004990291
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 1 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.013024889
+tree_id: 1 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.0062173875
+tree_id: 1 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.0053839698
+tree_id: 1 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.0054130633
+tree_id: 1 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.0073857647
+tree_id: 1 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.00782557
+tree_id: 1 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.0064330413
+tree_id: 1 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.0074673966
+tree_id: 1 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.008272472
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 1 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.028508289
+tree_id: 1 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.010077758
+tree_id: 1 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.009966464
+tree_id: 1 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.010428641
+tree_id: 1 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.009928828
+tree_id: 1 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.010754935
+tree_id: 1 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.00951994
+tree_id: 1 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.009180307
+tree_id: 1 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.010144221
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 1 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.016657164
+tree_id: 1 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.008808786
+tree_id: 1 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.00884499
+tree_id: 1 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.010364257
+tree_id: 1 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.0074546346
+tree_id: 1 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.009071481
+tree_id: 1 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.009461331
+tree_id: 1 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.010430122
+tree_id: 1 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.0091339275
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 1 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.028427076
+tree_id: 1 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.0092015825
+tree_id: 1 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.009568005
+tree_id: 1 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.009031247
+tree_id: 1 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.008677784
+tree_id: 1 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.009061536
+tree_id: 1 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.009229619
+tree_id: 1 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.0074057016
+tree_id: 1 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.007627098
+train tree id: 0 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 13:08:51.861358
+tic_datetime.strftime: 2020-11-02 13:08:51.861358
+tic_walltime: 1604322531.861461
+tic_cpu: 351.240926
+=====================================================
+
+test tree id: 0 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:08:51.861513
+tic_datetime.strftime: 2020-11-02 13:08:51.861513
+tic_walltime: 1604322531.861538
+tic_cpu: 351.240993
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.9563, AUC-PR: 0.0366
+test tree id: 0 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:08:52.008061
+tic_datetime.strftime: 2020-11-02 13:08:52.008061
+tic_walltime: 1604322532.0081198
+tic_cpu: 351.572275
+=====================================================
+
+train tree id: 1 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:08:52.039044
+tic_datetime.strftime: 2020-11-02 13:08:52.039044
+tic_walltime: 1604322532.039088
+tic_cpu: 351.603277
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 2 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.026578102
+tree_id: 2 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.00863627
+tree_id: 2 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.007753716
+tree_id: 2 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.00831654
+tree_id: 2 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.00823949
+tree_id: 2 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.007115474
+tree_id: 2 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.0073670708
+tree_id: 2 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.008310853
+tree_id: 2 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.0058967522
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 2 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.024871841
+tree_id: 2 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.0099183805
+tree_id: 2 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.00937864
+tree_id: 2 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.009451026
+tree_id: 2 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.009789534
+tree_id: 2 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.009270393
+tree_id: 2 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.009217225
+tree_id: 2 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.008239864
+tree_id: 2 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.008698712
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 2 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.020432312
+tree_id: 2 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.008855041
+tree_id: 2 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.008750293
+tree_id: 2 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.00915941
+tree_id: 2 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.008072644
+tree_id: 2 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.011190256
+tree_id: 2 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.007219498
+tree_id: 2 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.008782196
+tree_id: 2 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.008465797
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 2 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.019550616
+tree_id: 2 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.00977359
+tree_id: 2 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.00866027
+tree_id: 2 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.009260465
+tree_id: 2 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.00942084
+tree_id: 2 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.008178992
+tree_id: 2 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.0102962125
+tree_id: 2 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.008905611
+tree_id: 2 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.0074474914
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 2 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.022043973
+tree_id: 2 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.0072364556
+tree_id: 2 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.005526567
+tree_id: 2 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.0058277864
+tree_id: 2 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.0065399855
+tree_id: 2 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.0057210936
+tree_id: 2 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.005718113
+tree_id: 2 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.0058472645
+tree_id: 2 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.0064838743
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 2 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.012124376
+tree_id: 2 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.002936975
+tree_id: 2 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.0022529305
+tree_id: 2 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.0021860334
+tree_id: 2 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.0021471689
+tree_id: 2 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.0024521067
+tree_id: 2 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.0026981807
+tree_id: 2 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.0023358166
+tree_id: 2 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.002251452
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 2 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.034285747
+tree_id: 2 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.012245892
+tree_id: 2 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.017657988
+tree_id: 2 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.020193018
+tree_id: 2 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.018206542
+tree_id: 2 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.016431136
+tree_id: 2 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.01962166
+tree_id: 2 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.016764391
+tree_id: 2 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.01696708
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 2 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.03061127
+tree_id: 2 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.0148639
+tree_id: 2 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.014354574
+tree_id: 2 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.015360519
+tree_id: 2 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.013173655
+tree_id: 2 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.013320293
+tree_id: 2 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.012379006
+tree_id: 2 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.014622606
+tree_id: 2 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.013804892
+train tree id: 1 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 13:15:45.679290
+tic_datetime.strftime: 2020-11-02 13:15:45.679290
+tic_walltime: 1604322945.6793957
+tic_cpu: 693.486549
+=====================================================
+
+test tree id: 1 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:15:45.679445
+tic_datetime.strftime: 2020-11-02 13:15:45.679445
+tic_walltime: 1604322945.6794696
+tic_cpu: 693.48661
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.9662, AUC-PR: 0.0596
+test tree id: 1 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:15:45.903120
+tic_datetime.strftime: 2020-11-02 13:15:45.903120
+tic_walltime: 1604322945.9031613
+tic_cpu: 693.80993
+=====================================================
+
+train tree id: 2 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:15:45.942130
+tic_datetime.strftime: 2020-11-02 13:15:45.942130
+tic_walltime: 1604322945.9421847
+tic_cpu: 693.844916
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 3 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.027424254
+tree_id: 3 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.00999248
+tree_id: 3 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.011123618
+tree_id: 3 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.012187943
+tree_id: 3 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.010446024
+tree_id: 3 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.009232156
+tree_id: 3 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.011180599
+tree_id: 3 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.013191473
+tree_id: 3 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.00867182
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 3 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.020024177
+tree_id: 3 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.0060189795
+tree_id: 3 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.0060034087
+tree_id: 3 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.005228424
+tree_id: 3 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.006067791
+tree_id: 3 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.00488374
+tree_id: 3 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.005581343
+tree_id: 3 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.005046922
+tree_id: 3 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.0050398186
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 3 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.032155044
+tree_id: 3 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.014743536
+tree_id: 3 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.013093982
+tree_id: 3 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.015559958
+tree_id: 3 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.013805525
+tree_id: 3 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.015369681
+tree_id: 3 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.015460078
+tree_id: 3 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.016519675
+tree_id: 3 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.014665297
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 3 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.017517775
+tree_id: 3 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.007997981
+tree_id: 3 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.006408885
+tree_id: 3 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.007848643
+tree_id: 3 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.00756423
+tree_id: 3 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.00855647
+tree_id: 3 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.0074859797
+tree_id: 3 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.0054038884
+tree_id: 3 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.0075607295
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 3 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.03535855
+tree_id: 3 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.015694147
+tree_id: 3 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.016296059
+tree_id: 3 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.013260208
+tree_id: 3 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.014380449
+tree_id: 3 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.013066662
+tree_id: 3 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.013529241
+tree_id: 3 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.012223048
+tree_id: 3 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.014445649
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 3 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.02842663
+tree_id: 3 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.02387362
+tree_id: 3 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.021244582
+tree_id: 3 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.02081033
+tree_id: 3 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.02329013
+tree_id: 3 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.021827918
+tree_id: 3 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.01680896
+tree_id: 3 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.020108812
+tree_id: 3 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.020476906
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 3 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.032379806
+tree_id: 3 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.010876212
+tree_id: 3 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.011121759
+tree_id: 3 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.010059034
+tree_id: 3 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.009701583
+tree_id: 3 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.0103685
+tree_id: 3 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.009503422
+tree_id: 3 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.0084383525
+tree_id: 3 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.01102387
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 3 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.021021903
+tree_id: 3 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.010839282
+tree_id: 3 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.010288753
+tree_id: 3 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.012095485
+tree_id: 3 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.012540225
+tree_id: 3 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.010291166
+tree_id: 3 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.00986626
+tree_id: 3 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.01018354
+tree_id: 3 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.009968105
+train tree id: 2 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 13:22:31.385685
+tic_datetime.strftime: 2020-11-02 13:22:31.385685
+tic_walltime: 1604323351.3857753
+tic_cpu: 1033.687517
+=====================================================
+
+test tree id: 2 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:22:31.385839
+tic_datetime.strftime: 2020-11-02 13:22:31.385839
+tic_walltime: 1604323351.3858657
+tic_cpu: 1033.687591
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.9632, AUC-PR: 0.0668
+test tree id: 2 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:22:31.535029
+tic_datetime.strftime: 2020-11-02 13:22:31.535029
+tic_walltime: 1604323351.5350842
+tic_cpu: 1034.006743
+=====================================================
+
+train tree id: 3 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:22:31.582688
+tic_datetime.strftime: 2020-11-02 13:22:31.582688
+tic_walltime: 1604323351.5827422
+tic_cpu: 1034.046402
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 4 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.040197633
+tree_id: 4 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.011943778
+tree_id: 4 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.013554049
+tree_id: 4 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.011923397
+tree_id: 4 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.011842022
+tree_id: 4 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.01257513
+tree_id: 4 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.012546442
+tree_id: 4 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.012211449
+tree_id: 4 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.010731557
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 4 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.02980889
+tree_id: 4 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.009630475
+tree_id: 4 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.010080731
+tree_id: 4 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.008588862
+tree_id: 4 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.010457202
+tree_id: 4 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.010254594
+tree_id: 4 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.009566333
+tree_id: 4 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.009941074
+tree_id: 4 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.010896508
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 4 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.060848016
+tree_id: 4 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.01401053
+tree_id: 4 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.011420361
+tree_id: 4 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.013823856
+tree_id: 4 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.012238661
+tree_id: 4 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.011348646
+tree_id: 4 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.011801431
+tree_id: 4 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.012140721
+tree_id: 4 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.011670217
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 4 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.042461306
+tree_id: 4 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.02474083
+tree_id: 4 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.019896515
+tree_id: 4 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.023435421
+tree_id: 4 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.016403276
+tree_id: 4 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.019914199
+tree_id: 4 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.019767862
+tree_id: 4 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.016912296
+tree_id: 4 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.023186319
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 4 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.019169083
+tree_id: 4 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.0101743955
+tree_id: 4 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.008985853
+tree_id: 4 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.00912208
+tree_id: 4 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.009076366
+tree_id: 4 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.006463225
+tree_id: 4 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.008201981
+tree_id: 4 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.008250315
+tree_id: 4 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.009390349
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 4 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.023021646
+tree_id: 4 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.01071968
+tree_id: 4 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.015467855
+tree_id: 4 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.012295362
+tree_id: 4 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.011458298
+tree_id: 4 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.012128755
+tree_id: 4 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.012356296
+tree_id: 4 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.014145199
+tree_id: 4 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.015057412
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 4 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.039968256
+tree_id: 4 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.022299035
+tree_id: 4 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.021735094
+tree_id: 4 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.025012169
+tree_id: 4 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.021023417
+tree_id: 4 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.02294207
+tree_id: 4 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.023822553
+tree_id: 4 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.021671785
+tree_id: 4 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.02329326
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 4 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.019039897
+tree_id: 4 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.008227793
+tree_id: 4 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.008125621
+tree_id: 4 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.006349473
+tree_id: 4 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.0074358596
+tree_id: 4 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.0064452654
+tree_id: 4 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.0057748714
+tree_id: 4 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.008184344
+tree_id: 4 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.008114887
+train tree id: 3 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 13:29:20.010814
+tic_datetime.strftime: 2020-11-02 13:29:20.010814
+tic_walltime: 1604323760.0109074
+tic_cpu: 1374.517875
+=====================================================
+
+test tree id: 3 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:29:20.010956
+tic_datetime.strftime: 2020-11-02 13:29:20.010956
+tic_walltime: 1604323760.0109787
+tic_cpu: 1374.517935
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.9665, AUC-PR: 0.0823
+test tree id: 3 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:29:20.122482
+tic_datetime.strftime: 2020-11-02 13:29:20.122482
+tic_walltime: 1604323760.122538
+tic_cpu: 1374.826005
+=====================================================
+
+train tree id: 4 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:29:20.168322
+tic_datetime.strftime: 2020-11-02 13:29:20.168322
+tic_walltime: 1604323760.168378
+tic_cpu: 1374.864971
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 5 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.037188202
+tree_id: 5 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.024692846
+tree_id: 5 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.023047544
+tree_id: 5 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.01908646
+tree_id: 5 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.018089142
+tree_id: 5 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.02224508
+tree_id: 5 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.019064002
+tree_id: 5 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.02136293
+tree_id: 5 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.021785203
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 5 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.012204256
+tree_id: 5 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.0029614992
+tree_id: 5 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.0028735613
+tree_id: 5 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.0023414441
+tree_id: 5 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.0020663068
+tree_id: 5 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.002542403
+tree_id: 5 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.0019466791
+tree_id: 5 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.0019933798
+tree_id: 5 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.0022014142
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 5 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.01567709
+tree_id: 5 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.00738379
+tree_id: 5 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.0076300604
+tree_id: 5 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.006716967
+tree_id: 5 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.007450875
+tree_id: 5 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.0076507796
+tree_id: 5 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.005720802
+tree_id: 5 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.007526939
+tree_id: 5 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.0057564774
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 5 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.021664217
+tree_id: 5 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.009514125
+tree_id: 5 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.010695914
+tree_id: 5 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.008828438
+tree_id: 5 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.009340109
+tree_id: 5 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.008883189
+tree_id: 5 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.009390239
+tree_id: 5 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.009296392
+tree_id: 5 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.00867201
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 5 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.03132407
+tree_id: 5 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.008802952
+tree_id: 5 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.0101424325
+tree_id: 5 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.008833473
+tree_id: 5 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.009239325
+tree_id: 5 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.008948017
+tree_id: 5 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.009801792
+tree_id: 5 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.009780609
+tree_id: 5 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.009386966
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 5 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.022732222
+tree_id: 5 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.009015315
+tree_id: 5 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.0062106433
+tree_id: 5 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.0075912867
+tree_id: 5 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.0072117546
+tree_id: 5 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.006856459
+tree_id: 5 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.0076975534
+tree_id: 5 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.006043776
+tree_id: 5 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.006213144
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 5 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.013481913
+tree_id: 5 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.003601634
+tree_id: 5 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.0035265759
+tree_id: 5 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.0029331765
+tree_id: 5 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.0027575428
+tree_id: 5 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.0026780758
+tree_id: 5 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.002906533
+tree_id: 5 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.0031890168
+tree_id: 5 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.0028137611
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 5 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.027137555
+tree_id: 5 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.014953856
+tree_id: 5 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.0169711
+tree_id: 5 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.015285088
+tree_id: 5 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.012761548
+tree_id: 5 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.013904331
+tree_id: 5 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.01678933
+tree_id: 5 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.018216375
+tree_id: 5 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.015675662
+train tree id: 4 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 13:36:08.999946
+tic_datetime.strftime: 2020-11-02 13:36:08.999946
+tic_walltime: 1604324169.0000317
+tic_cpu: 1716.216003
+=====================================================
+
+test tree id: 4 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:36:09.000107
+tic_datetime.strftime: 2020-11-02 13:36:09.000107
+tic_walltime: 1604324169.0001335
+tic_cpu: 1716.216083
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.9772, AUC-PR: 0.1047
+test tree id: 4 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:36:09.151563
+tic_datetime.strftime: 2020-11-02 13:36:09.151563
+tic_walltime: 1604324169.151617
+tic_cpu: 1716.532334
+=====================================================
+
+train tree id: 5 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:36:09.184995
+tic_datetime.strftime: 2020-11-02 13:36:09.184995
+tic_walltime: 1604324169.1850533
+tic_cpu: 1716.565774
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 6 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.041867226
+tree_id: 6 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.015823465
+tree_id: 6 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.015298779
+tree_id: 6 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.017008753
+tree_id: 6 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.015980465
+tree_id: 6 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.013989369
+tree_id: 6 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.012098195
+tree_id: 6 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.013699865
+tree_id: 6 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.011656041
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 6 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.019133566
+tree_id: 6 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.008052626
+tree_id: 6 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.007659444
+tree_id: 6 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.008406397
+tree_id: 6 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.0067414143
+tree_id: 6 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.0068048695
+tree_id: 6 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.0074340906
+tree_id: 6 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.006506283
+tree_id: 6 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.006956212
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 6 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.020302717
+tree_id: 6 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.009223667
+tree_id: 6 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.006488476
+tree_id: 6 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.007777105
+tree_id: 6 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.008440411
+tree_id: 6 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.007168038
+tree_id: 6 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.008023182
+tree_id: 6 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.007358928
+tree_id: 6 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.0072967904
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 6 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.047004506
+tree_id: 6 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.016064795
+tree_id: 6 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.014973483
+tree_id: 6 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.014290031
+tree_id: 6 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.012812008
+tree_id: 6 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.0155357495
+tree_id: 6 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.013442232
+tree_id: 6 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.01358124
+tree_id: 6 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.0133802425
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 6 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.038850874
+tree_id: 6 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.00896208
+tree_id: 6 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.007964641
+tree_id: 6 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.007986832
+tree_id: 6 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.008406009
+tree_id: 6 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.007678454
+tree_id: 6 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.008152414
+tree_id: 6 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.007076746
+tree_id: 6 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.007848696
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 6 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.026039295
+tree_id: 6 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.013518744
+tree_id: 6 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.012822634
+tree_id: 6 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.013247363
+tree_id: 6 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.011076964
+tree_id: 6 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.010379463
+tree_id: 6 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.015515163
+tree_id: 6 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.011879727
+tree_id: 6 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.011470124
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 6 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.013767734
+tree_id: 6 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.0051651755
+tree_id: 6 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.006210212
+tree_id: 6 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.0048822123
+tree_id: 6 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.004438821
+tree_id: 6 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.0053263353
+tree_id: 6 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.005341389
+tree_id: 6 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.0052099144
+tree_id: 6 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.005487097
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 6 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.013572826
+tree_id: 6 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.003638859
+tree_id: 6 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.0028659098
+tree_id: 6 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.0033888225
+tree_id: 6 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.0030343747
+tree_id: 6 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.0032229836
+tree_id: 6 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.0035831477
+tree_id: 6 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.003045969
+tree_id: 6 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.0027821707
+train tree id: 5 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 13:42:57.947353
+tic_datetime.strftime: 2020-11-02 13:42:57.947353
+tic_walltime: 1604324577.9474266
+tic_cpu: 2058.482404
+=====================================================
+
+test tree id: 5 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:42:57.947472
+tic_datetime.strftime: 2020-11-02 13:42:57.947472
+tic_walltime: 1604324577.9474928
+tic_cpu: 2058.482461
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.9600, AUC-PR: 0.0588
+test tree id: 5 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:42:58.080721
+tic_datetime.strftime: 2020-11-02 13:42:58.080721
+tic_walltime: 1604324578.0807755
+tic_cpu: 2058.802689
+=====================================================
+
+train tree id: 6 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:42:58.180581
+tic_datetime.strftime: 2020-11-02 13:42:58.180581
+tic_walltime: 1604324578.1806247
+tic_cpu: 2058.835362
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 7 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.03907277
+tree_id: 7 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.017956518
+tree_id: 7 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.011665976
+tree_id: 7 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.014096655
+tree_id: 7 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.015207762
+tree_id: 7 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.014495038
+tree_id: 7 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.01356926
+tree_id: 7 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.014916524
+tree_id: 7 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.013159512
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 7 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.032108683
+tree_id: 7 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.0145554105
+tree_id: 7 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.01646262
+tree_id: 7 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.011455448
+tree_id: 7 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.011476906
+tree_id: 7 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.012237021
+tree_id: 7 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.012918653
+tree_id: 7 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.013670659
+tree_id: 7 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.0129464995
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 7 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.025740573
+tree_id: 7 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.014389904
+tree_id: 7 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.01159958
+tree_id: 7 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.011018768
+tree_id: 7 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.009958662
+tree_id: 7 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.012716259
+tree_id: 7 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.009051351
+tree_id: 7 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.008964384
+tree_id: 7 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.013985053
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 7 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.0336428
+tree_id: 7 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.011886422
+tree_id: 7 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.010508429
+tree_id: 7 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.009201153
+tree_id: 7 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.012377104
+tree_id: 7 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.011154376
+tree_id: 7 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.010671574
+tree_id: 7 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.01057828
+tree_id: 7 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.010713525
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 7 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.03925322
+tree_id: 7 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.022877216
+tree_id: 7 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.022311669
+tree_id: 7 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.01876517
+tree_id: 7 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.019620696
+tree_id: 7 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.023644902
+tree_id: 7 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.018168837
+tree_id: 7 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.021329269
+tree_id: 7 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.018628687
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 7 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.026418332
+tree_id: 7 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.011585413
+tree_id: 7 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.013893419
+tree_id: 7 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.012546616
+tree_id: 7 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.013820368
+tree_id: 7 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.015990574
+tree_id: 7 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.011262091
+tree_id: 7 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.011658589
+tree_id: 7 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.009698784
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 7 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.030327048
+tree_id: 7 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.016672997
+tree_id: 7 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.01766546
+tree_id: 7 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.015954379
+tree_id: 7 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.016755743
+tree_id: 7 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.01780345
+tree_id: 7 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.016633553
+tree_id: 7 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.014775062
+tree_id: 7 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.014237011
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 7 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.027626466
+tree_id: 7 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.008835431
+tree_id: 7 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.009175859
+tree_id: 7 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.009097666
+tree_id: 7 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.010339883
+tree_id: 7 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.006373089
+tree_id: 7 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.008593602
+tree_id: 7 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.0073293876
+tree_id: 7 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.007868508
+train tree id: 6 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 13:49:50.284754
+tic_datetime.strftime: 2020-11-02 13:49:50.284754
+tic_walltime: 1604324990.2848136
+tic_cpu: 2401.702068
+=====================================================
+
+test tree id: 6 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:49:50.284850
+tic_datetime.strftime: 2020-11-02 13:49:50.284850
+tic_walltime: 1604324990.2848644
+tic_cpu: 2401.702112
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.9448, AUC-PR: 0.2063
+test tree id: 6 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:49:50.397625
+tic_datetime.strftime: 2020-11-02 13:49:50.397625
+tic_walltime: 1604324990.397677
+tic_cpu: 2402.005809
+=====================================================
+
+train tree id: 7 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:49:50.434476
+tic_datetime.strftime: 2020-11-02 13:49:50.434476
+tic_walltime: 1604324990.4345517
+tic_cpu: 2402.04257
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 8 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.06412426
+tree_id: 8 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.02634087
+tree_id: 8 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.027044691
+tree_id: 8 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.02928268
+tree_id: 8 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.019741543
+tree_id: 8 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.024461986
+tree_id: 8 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.024309557
+tree_id: 8 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.028677344
+tree_id: 8 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.028162962
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 8 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.021905573
+tree_id: 8 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.0058224066
+tree_id: 8 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.0053887577
+tree_id: 8 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.0055595012
+tree_id: 8 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.005485397
+tree_id: 8 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.004775211
+tree_id: 8 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.005050434
+tree_id: 8 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.004690628
+tree_id: 8 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.004796966
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 8 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.04464038
+tree_id: 8 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.018919172
+tree_id: 8 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.019141942
+tree_id: 8 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.016229857
+tree_id: 8 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.019497411
+tree_id: 8 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.021096878
+tree_id: 8 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.017569762
+tree_id: 8 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.018409308
+tree_id: 8 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.017757531
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 8 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.014040804
+tree_id: 8 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.009499091
+tree_id: 8 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.008225298
+tree_id: 8 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.010042366
+tree_id: 8 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.00874894
+tree_id: 8 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.009916472
+tree_id: 8 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.008865075
+tree_id: 8 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.009871288
+tree_id: 8 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.008066115
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 8 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.022354797
+tree_id: 8 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.0070097186
+tree_id: 8 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.008123236
+tree_id: 8 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.0070882505
+tree_id: 8 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.0077480664
+tree_id: 8 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.008848302
+tree_id: 8 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.008944183
+tree_id: 8 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.006195747
+tree_id: 8 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.008888248
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 8 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.061527893
+tree_id: 8 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.021831505
+tree_id: 8 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.022551231
+tree_id: 8 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.022647448
+tree_id: 8 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.021478932
+tree_id: 8 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.022829648
+tree_id: 8 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.021898609
+tree_id: 8 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.022373399
+tree_id: 8 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.02337055
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 8 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.013301747
+tree_id: 8 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.008880027
+tree_id: 8 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.0072116395
+tree_id: 8 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.0075783487
+tree_id: 8 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.008232366
+tree_id: 8 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.0083797835
+tree_id: 8 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.008577654
+tree_id: 8 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.008821263
+tree_id: 8 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.007902548
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 8 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.02858442
+tree_id: 8 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.0099898
+tree_id: 8 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.009661835
+tree_id: 8 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.009525318
+tree_id: 8 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.01006712
+tree_id: 8 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.011888666
+tree_id: 8 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.01119221
+tree_id: 8 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.011160329
+tree_id: 8 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.010069049
+train tree id: 7 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 13:56:32.911833
+tic_datetime.strftime: 2020-11-02 13:56:32.911833
+tic_walltime: 1604325392.9119053
+tic_cpu: 2740.639605
+=====================================================
+
+test tree id: 7 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:56:32.911951
+tic_datetime.strftime: 2020-11-02 13:56:32.911951
+tic_walltime: 1604325392.9119775
+tic_cpu: 2740.639668
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.8954, AUC-PR: 0.1022
+test tree id: 7 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:56:33.077034
+tic_datetime.strftime: 2020-11-02 13:56:33.077034
+tic_walltime: 1604325393.0770898
+tic_cpu: 2740.962492
+=====================================================
+
+train tree id: 8 tic time.
+=====================================================
+tic_datetime: 2020-11-02 13:56:33.120601
+tic_datetime.strftime: 2020-11-02 13:56:33.120601
+tic_walltime: 1604325393.1206622
+tic_cpu: 2741.00207
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 9 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.021212613
+tree_id: 9 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.006996901
+tree_id: 9 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.0044644363
+tree_id: 9 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.00551712
+tree_id: 9 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.00521421
+tree_id: 9 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.003981538
+tree_id: 9 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.004614343
+tree_id: 9 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.0054344186
+tree_id: 9 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.004527306
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 9 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.024354897
+tree_id: 9 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.007100855
+tree_id: 9 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.006965107
+tree_id: 9 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.006541946
+tree_id: 9 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.0069317757
+tree_id: 9 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.0061717685
+tree_id: 9 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.007683371
+tree_id: 9 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.006260588
+tree_id: 9 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.006564335
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 9 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.021948915
+tree_id: 9 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.0055940915
+tree_id: 9 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.005394757
+tree_id: 9 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.005328452
+tree_id: 9 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.005559951
+tree_id: 9 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.0050191134
+tree_id: 9 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.0046502035
+tree_id: 9 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.006269156
+tree_id: 9 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.006038073
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 9 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.026166966
+tree_id: 9 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.008815624
+tree_id: 9 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.007880535
+tree_id: 9 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.00807986
+tree_id: 9 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.008164954
+tree_id: 9 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.0074021844
+tree_id: 9 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.0086251525
+tree_id: 9 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.00763129
+tree_id: 9 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.008007549
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 9 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.031649962
+tree_id: 9 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.007341813
+tree_id: 9 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.010117989
+tree_id: 9 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.008675765
+tree_id: 9 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.0084225815
+tree_id: 9 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.007640998
+tree_id: 9 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.007585637
+tree_id: 9 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.008877345
+tree_id: 9 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.008261215
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 9 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.027105918
+tree_id: 9 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.012669733
+tree_id: 9 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.013025611
+tree_id: 9 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.013794454
+tree_id: 9 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.011630503
+tree_id: 9 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.011916498
+tree_id: 9 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.013411533
+tree_id: 9 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.011223989
+tree_id: 9 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.012503276
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 9 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.01909185
+tree_id: 9 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.011129546
+tree_id: 9 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.0126658175
+tree_id: 9 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.010845353
+tree_id: 9 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.011830014
+tree_id: 9 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.010350854
+tree_id: 9 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.0104590915
+tree_id: 9 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.012006018
+tree_id: 9 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.010847198
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 9 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.027990995
+tree_id: 9 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.010985841
+tree_id: 9 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.011440736
+tree_id: 9 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.012118932
+tree_id: 9 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.014008205
+tree_id: 9 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.0124484245
+tree_id: 9 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.010144612
+tree_id: 9 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.012090018
+tree_id: 9 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.011208115
+train tree id: 8 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 14:03:03.395790
+tic_datetime.strftime: 2020-11-02 14:03:03.395790
+tic_walltime: 1604325783.3958862
+tic_cpu: 3076.712602
+=====================================================
+
+test tree id: 8 tic time.
+=====================================================
+tic_datetime: 2020-11-02 14:03:03.395939
+tic_datetime.strftime: 2020-11-02 14:03:03.395939
+tic_walltime: 1604325783.395978
+tic_cpu: 3076.712684
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.9681, AUC-PR: 0.0632
+test tree id: 8 tic time.
+=====================================================
+tic_datetime: 2020-11-02 14:03:03.520105
+tic_datetime.strftime: 2020-11-02 14:03:03.520105
+tic_walltime: 1604325783.5201411
+tic_cpu: 3077.009685
+=====================================================
+
+train tree id: 9 tic time.
+=====================================================
+tic_datetime: 2020-11-02 14:03:03.554410
+tic_datetime.strftime: 2020-11-02 14:03:03.554410
+tic_walltime: 1604325783.5544658
+tic_cpu: 3077.04404
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 10 level: 1
+keep_pos.size == 10000
+epoch  0 gap_loss: 0.020874932
+tree_id: 10 level: 1
+keep_pos.size == 10000
+epoch  24 gap_loss: 0.0064516338
+tree_id: 10 level: 1
+keep_pos.size == 10000
+epoch  48 gap_loss: 0.007067648
+tree_id: 10 level: 1
+keep_pos.size == 10000
+epoch  72 gap_loss: 0.0061059124
+tree_id: 10 level: 1
+keep_pos.size == 10000
+epoch  96 gap_loss: 0.006045716
+tree_id: 10 level: 1
+keep_pos.size == 10000
+epoch  120 gap_loss: 0.0059689097
+tree_id: 10 level: 1
+keep_pos.size == 10000
+epoch  144 gap_loss: 0.006779474
+tree_id: 10 level: 1
+keep_pos.size == 10000
+epoch  168 gap_loss: 0.0058598067
+tree_id: 10 level: 1
+keep_pos.size == 10000
+epoch  192 gap_loss: 0.0060104243
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 10 level: 2
+keep_pos.size == 9500
+epoch  0 gap_loss: 0.037681673
+tree_id: 10 level: 2
+keep_pos.size == 9500
+epoch  24 gap_loss: 0.012748861
+tree_id: 10 level: 2
+keep_pos.size == 9500
+epoch  48 gap_loss: 0.010880435
+tree_id: 10 level: 2
+keep_pos.size == 9500
+epoch  72 gap_loss: 0.011956936
+tree_id: 10 level: 2
+keep_pos.size == 9500
+epoch  96 gap_loss: 0.015588956
+tree_id: 10 level: 2
+keep_pos.size == 9500
+epoch  120 gap_loss: 0.011509134
+tree_id: 10 level: 2
+keep_pos.size == 9500
+epoch  144 gap_loss: 0.010166386
+tree_id: 10 level: 2
+keep_pos.size == 9500
+epoch  168 gap_loss: 0.011117011
+tree_id: 10 level: 2
+keep_pos.size == 9500
+epoch  192 gap_loss: 0.009811621
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 10 level: 3
+keep_pos.size == 9025
+epoch  0 gap_loss: 0.04691866
+tree_id: 10 level: 3
+keep_pos.size == 9025
+epoch  24 gap_loss: 0.016141016
+tree_id: 10 level: 3
+keep_pos.size == 9025
+epoch  48 gap_loss: 0.017947063
+tree_id: 10 level: 3
+keep_pos.size == 9025
+epoch  72 gap_loss: 0.015256599
+tree_id: 10 level: 3
+keep_pos.size == 9025
+epoch  96 gap_loss: 0.014877448
+tree_id: 10 level: 3
+keep_pos.size == 9025
+epoch  120 gap_loss: 0.017959837
+tree_id: 10 level: 3
+keep_pos.size == 9025
+epoch  144 gap_loss: 0.017163333
+tree_id: 10 level: 3
+keep_pos.size == 9025
+epoch  168 gap_loss: 0.015175686
+tree_id: 10 level: 3
+keep_pos.size == 9025
+epoch  192 gap_loss: 0.016897533
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 10 level: 4
+keep_pos.size == 8574
+epoch  0 gap_loss: 0.043305933
+tree_id: 10 level: 4
+keep_pos.size == 8574
+epoch  24 gap_loss: 0.012885395
+tree_id: 10 level: 4
+keep_pos.size == 8574
+epoch  48 gap_loss: 0.012721087
+tree_id: 10 level: 4
+keep_pos.size == 8574
+epoch  72 gap_loss: 0.00915407
+tree_id: 10 level: 4
+keep_pos.size == 8574
+epoch  96 gap_loss: 0.01263823
+tree_id: 10 level: 4
+keep_pos.size == 8574
+epoch  120 gap_loss: 0.011818386
+tree_id: 10 level: 4
+keep_pos.size == 8574
+epoch  144 gap_loss: 0.0115049165
+tree_id: 10 level: 4
+keep_pos.size == 8574
+epoch  168 gap_loss: 0.011533399
+tree_id: 10 level: 4
+keep_pos.size == 8574
+epoch  192 gap_loss: 0.010267844
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 10 level: 5
+keep_pos.size == 8146
+epoch  0 gap_loss: 0.022345588
+tree_id: 10 level: 5
+keep_pos.size == 8146
+epoch  24 gap_loss: 0.011188222
+tree_id: 10 level: 5
+keep_pos.size == 8146
+epoch  48 gap_loss: 0.010153805
+tree_id: 10 level: 5
+keep_pos.size == 8146
+epoch  72 gap_loss: 0.009702663
+tree_id: 10 level: 5
+keep_pos.size == 8146
+epoch  96 gap_loss: 0.010622455
+tree_id: 10 level: 5
+keep_pos.size == 8146
+epoch  120 gap_loss: 0.010144778
+tree_id: 10 level: 5
+keep_pos.size == 8146
+epoch  144 gap_loss: 0.007519389
+tree_id: 10 level: 5
+keep_pos.size == 8146
+epoch  168 gap_loss: 0.010348364
+tree_id: 10 level: 5
+keep_pos.size == 8146
+epoch  192 gap_loss: 0.010443646
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 10 level: 6
+keep_pos.size == 7739
+epoch  0 gap_loss: 0.032738023
+tree_id: 10 level: 6
+keep_pos.size == 7739
+epoch  24 gap_loss: 0.0072181784
+tree_id: 10 level: 6
+keep_pos.size == 7739
+epoch  48 gap_loss: 0.007519477
+tree_id: 10 level: 6
+keep_pos.size == 7739
+epoch  72 gap_loss: 0.0065217623
+tree_id: 10 level: 6
+keep_pos.size == 7739
+epoch  96 gap_loss: 0.0064716665
+tree_id: 10 level: 6
+keep_pos.size == 7739
+epoch  120 gap_loss: 0.008507707
+tree_id: 10 level: 6
+keep_pos.size == 7739
+epoch  144 gap_loss: 0.0076702638
+tree_id: 10 level: 6
+keep_pos.size == 7739
+epoch  168 gap_loss: 0.0071732122
+tree_id: 10 level: 6
+keep_pos.size == 7739
+epoch  192 gap_loss: 0.0072461143
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 10 level: 7
+keep_pos.size == 7353
+epoch  0 gap_loss: 0.030022144
+tree_id: 10 level: 7
+keep_pos.size == 7353
+epoch  24 gap_loss: 0.015108312
+tree_id: 10 level: 7
+keep_pos.size == 7353
+epoch  48 gap_loss: 0.012177117
+tree_id: 10 level: 7
+keep_pos.size == 7353
+epoch  72 gap_loss: 0.016251922
+tree_id: 10 level: 7
+keep_pos.size == 7353
+epoch  96 gap_loss: 0.013202793
+tree_id: 10 level: 7
+keep_pos.size == 7353
+epoch  120 gap_loss: 0.012155844
+tree_id: 10 level: 7
+keep_pos.size == 7353
+epoch  144 gap_loss: 0.01280888
+tree_id: 10 level: 7
+keep_pos.size == 7353
+epoch  168 gap_loss: 0.01247785
+tree_id: 10 level: 7
+keep_pos.size == 7353
+epoch  192 gap_loss: 0.013532347
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+tree_id: 10 level: 8
+keep_pos.size == 6986
+epoch  0 gap_loss: 0.027622467
+tree_id: 10 level: 8
+keep_pos.size == 6986
+epoch  24 gap_loss: 0.0133682415
+tree_id: 10 level: 8
+keep_pos.size == 6986
+epoch  48 gap_loss: 0.012412584
+tree_id: 10 level: 8
+keep_pos.size == 6986
+epoch  72 gap_loss: 0.014543783
+tree_id: 10 level: 8
+keep_pos.size == 6986
+epoch  96 gap_loss: 0.012020739
+tree_id: 10 level: 8
+keep_pos.size == 6986
+epoch  120 gap_loss: 0.014091601
+tree_id: 10 level: 8
+keep_pos.size == 6986
+epoch  144 gap_loss: 0.013092936
+tree_id: 10 level: 8
+keep_pos.size == 6986
+epoch  168 gap_loss: 0.011272821
+tree_id: 10 level: 8
+keep_pos.size == 6986
+epoch  192 gap_loss: 0.011180778
+train tree id: 9 tic time end.
+=====================================================
+tic_datetime: 2020-11-02 14:09:32.760939
+tic_datetime.strftime: 2020-11-02 14:09:32.760939
+tic_walltime: 1604326172.7610142
+tic_cpu: 3410.969947
+=====================================================
+
+test tree id: 9 tic time.
+=====================================================
+tic_datetime: 2020-11-02 14:09:32.761062
+tic_datetime.strftime: 2020-11-02 14:09:32.761062
+tic_walltime: 1604326172.761087
+tic_cpu: 3410.970011
+=====================================================
+
+RTargetNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.25, inplace=True)
+  )
+)
+RNet(
+  (layers): Sequential(
+    (0): Linear(in_features=34, out_features=16, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Dropout(p=0.1, inplace=False)
+  )
+)
+************Current Result**************
+AUC-ROC: 0.8863, AUC-PR: 0.1709
+test tree id: 9 tic time.
+=====================================================
+tic_datetime: 2020-11-02 14:09:32.899824
+tic_datetime.strftime: 2020-11-02 14:09:32.899824
+tic_walltime: 1604326172.899881
+tic_cpu: 3411.288216
+=====================================================
+
+***************** Anomaly *****************
+[0.00990462 0.03557676 0.11480133 0.0039509  0.10507048 0.07593781
+ 0.08769196 0.11445728 0.11714519 0.11451887 0.03876865 0.02916417
+ 0.00664754 0.10559253 0.1010478  0.00845299 0.12233155 0.07186878
+ 0.10969592 0.05526057 0.11140303 0.11453933 0.00297366 0.11689941
+ 0.10349937 0.10239246 0.1039145  0.01541618 0.11466717 0.16453898]
+mean: 0.07426784996233325, std: 0.04616558825957055
+***************** Normality *****************
+[0.00116834 0.00123116 0.00115117 0.00104259 0.00111573 0.00098411
+ 0.00107938 0.00128714 0.00091682 0.01002656 0.00095956 0.00124407
+ 0.00111644 0.00119039 0.000961   0.00137223 0.00337703 0.00124006
+ 0.00091287 0.02984562 0.00154744 0.00115159 0.00116646 0.00105771
+ 0.00124637 0.00121867 0.00157867 0.00123942 0.00114832 0.00125837]
+mean: 0.00480782123070265, std: 0.01637876690722991
+***************** Total roc_auc *****************
+[0.9563245662259, 0.9661651379686159, 0.9632466267372664, 0.966453516969995, 0.9771679060212378, 0.9600021218521841, 0.9448434169535989, 0.8953869004561982, 0.9680767338908017, 0.8863304495433195]
+***************** Total ap *****************
+[0.03657876526816118, 0.05956230780635925, 0.06684043537525201, 0.08230035828266948, 0.10468867238307325, 0.05884972053124503, 0.206305159925573, 0.1021719914152865, 0.06323808153872024, 0.17094565766228106]
+AUC-ROC: 0.9712, AUC-PR: 0.0873
